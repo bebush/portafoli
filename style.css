@@ -1,4 +1,29 @@
 
+/* servicios */
+.containersr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    background-color: white;
+    gap:35px;
+}
+#gridsr{
+    padding: 9px;
+    text-align: center;
+    border: 2px solid black
+   
+}
+.basesr{
+    grid-column: 1/4;
+    line-height: 2px;
+    
+}
+.gridsr2{
+    line-height: 20px;
+    
+}
+
+=======
 /* --------------- head----------------- */
 
 body {
@@ -28,3 +53,4 @@ body {
     height: 300px;
     background-color: white;
 }
+
