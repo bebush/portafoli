@@ -1,0 +1,29 @@
+
+/* servicios */
+.containersr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    gap: 50px;
+}
+#gridsr{
+    justify-content: center;
+    margin: auto;
+    
+    text-align: center;
+    align-items: start;
+   
+}
+.basesr{
+    grid-column: 1/4;
+    line-height: 2px;
+    
+}
+.gridsr2{
+    line-height: 20px;
+    
+}
