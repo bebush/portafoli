@@ -3,19 +3,14 @@
 .containersr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
-    align-items: center;
     justify-content: center;
     background-color: white;
-    
-    gap: 50px;
+    gap:35px;
 }
 #gridsr{
-    justify-content: center;
-    margin: auto;
-    
+    padding: 9px;
     text-align: center;
-    align-items: start;
+    border: 2px solid black
    
 }
 .basesr{
@@ -27,3 +22,4 @@
     line-height: 20px;
     
 }
+
