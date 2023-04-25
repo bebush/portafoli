@@ -6,24 +6,25 @@
     justify-content: center;
     background-color: white;
     gap:35px;
+    
 }
 #gridsr{
     padding: 9px;
     text-align: center;
-    border: 2px solid black
-   
+    border: 2px solid black;
+    margin: 20px;
 }
 .basesr{
     grid-column: 1/4;
     line-height: 2px;
-    
+    margin: 20px;
 }
 .gridsr2{
     line-height: 20px;
     
 }
 
-=======
+
 /* --------------- head----------------- */
 
 body {
