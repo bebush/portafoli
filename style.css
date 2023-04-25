@@ -1,0 +1,30 @@
+
+/* --------------- head----------------- */
+
+body {
+    background-image: url(https://imgs.search.brave.com/Z_7Pib1Halu9SF9_gVbmknyMkdkiT89B5r6_cPW1Iow/rs:fit:626:413:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS92ZWN0b3ItZ3Jh/dGlzL2ZvbmRvLWF0/YXF1ZS1jaWJlcm5l/dGljby1oYWNrZXJf/NDIwNzctMzUuanBn)  ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+#h-primario{
+    height: 300px;
+
+}
+#h-pokemon{
+    height: 30px;
+}
+
+#perfil{
+    border-radius: 20%;
+ 
+}
+#h-nav{
+    color: white;
+    background-color: black;
+}
+
+#a-primario{
+    height: 300px;
+    background-color: white;
+}
