@@ -11,7 +11,7 @@
 #gridsr{
     padding: 9px;
     text-align: center;
-    border: 2px solid black;
+    transition: 0.3s;
     margin: 20px;
 }
 .basesr{
@@ -19,9 +19,10 @@
     line-height: 2px;
     margin: 20px;
 }
-.gridsr2{
-    line-height: 20px;
-    
+
+#gridsr:hover{
+    box-shadow: 5px 5px 5px grey;
+    background-color: rgb(247, 241, 241);
 }
 
 
@@ -55,3 +56,47 @@ body {
     background-color: white;
 }
 
+/* ---------------footer--------------- */
+
+.footer{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.g-footer{
+    
+    text-align: center;
+    margin: 15px;
+}
+
+#techoF{
+    grid-column: 1/5;
+    text-align: left;
+    padding-top: 80px;
+}
+#pie{
+    grid-column: 1/5;
+    line-height: 4px;
+}
+
+.g-footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+.g-footer a{
+    text-decoration: none;
+    color: black;
+}
+#mail{
+    color: rgb(255, 36, 36);
+}
+#linkedin{
+    color: rgb(0, 89, 255);
+}
+#mail p{
+    color: black;
+}
+#linkedin p{
+    color: black;
+}
