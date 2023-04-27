@@ -4,12 +4,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    background-color: white;
+    background-color:white;
     gap:5px;
-    margin-left: 15px;
-    margin-bottom: 3vh;
+    padding-left: 15px;
+    padding-bottom: 3vh;
     margin-top: 0;
     position: relative;
+    
     
 
 }
@@ -38,13 +39,17 @@
 
 
 /* --------------- head----------------- */
-
+body{
+    height: 100vh;
+    background-color: rgb(0,0,0);
+   
+}
 
 #h-h{
-    background:linear-gradient(rgba(0, 0, 0, 0.75),rgba(36, 36, 36, 0.75)), url(https://imgs.search.brave.com/Z_7Pib1Halu9SF9_gVbmknyMkdkiT89B5r6_cPW1Iow/rs:fit:626:413:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS92ZWN0b3ItZ3Jh/dGlzL2ZvbmRvLWF0/YXF1ZS1jaWJlcm5l/dGljby1oYWNrZXJf/NDIwNzctMzUuanBn)  ;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 100vh;
+    
+   
+    height: 100%;
+    background-color: rgb(0,0,0);
    
 }
 #h-lugar{
@@ -67,8 +72,9 @@
     border-radius: 50%;
     height: 180px;
     width: 180px;
-    
+    z-index: 75;
     background-size:cover;
+    position: relative;
  
 }
 #h-nav{
@@ -78,6 +84,7 @@
     border-radius:0px 0px 50px 50px   ;
     position: fixed;
     width: 100%;
+    z-index: 100;
     
 }
 
@@ -119,6 +126,18 @@
     text-align: center;
     line-height: 10px;
     font-size: larger;
+    z-index: 75;
+}
+#imagenf{
+    z-index: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    
+
 }
 
 /*----------------about------------------*/
@@ -127,10 +146,19 @@
 
 
 #a-primario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     height: 300px;
     background-color: white;
+    z-index: 75;
+    position: relative;
+    border: 2px solid black;
+    
 }
-
+#a-skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 
 
