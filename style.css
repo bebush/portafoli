@@ -152,15 +152,38 @@ body{
     background-color: white;
     z-index: 75;
     position: relative;
-    border: 2px solid black;
+    
     
 }
 #a-skills{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 20px;
+    
+    
+}
+#a-about{
+    padding: 20px;
+    
 }
 
+.a-icons {
+    height: 40px;
+}
+/* ---------------portafolios--------------- */
+#portafolios{
+    z-index: 75;
+    position: relative;
+}
+#p-proyectos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
 
+
+
+}
 
 /* ---------------footer--------------- */
 
