@@ -175,15 +175,46 @@ body{
 #portafolios{
     z-index: 75;
     position: relative;
+    background-color: white;
 }
 #p-proyectos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    background-color: aquamarine;
+    row-gap: 30px;
+    padding: 10px 120px 10px 120px;
     
-
-
-
+    
 }
+.p-proyecto{
+    border: solid 2px black;
+    border-radius: 5%;
+    height: 160px;
+    width: 270px;
+    justify-self: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+    
+}
+#prueb1 img{
+    
+    height: 160px;
+    width: 270px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+#prueb1 p{
+    position: relative;
+}
+
+
+
+
+
 
 /* ---------------footer--------------- */
 
