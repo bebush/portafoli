@@ -155,10 +155,14 @@ body{
     
     
 }
+.icons{
+    padding-top: 20px;
+}
 #a-skills{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+    row-gap: 100px;
     margin: 20px;
     
     
@@ -176,13 +180,15 @@ body{
     z-index: 75;
     position: relative;
     background-color: white;
+    
+}
+.portN{
+    padding: 15px;
 }
 #p-proyectos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: aquamarine;
-    row-gap: 30px;
-    padding: 10px 120px 10px 120px;
+    padding: 10px 20px 10px 20px;
     
     
 }
@@ -214,7 +220,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
 
 }
 .contenedor figure{
@@ -255,7 +261,7 @@ body{
 .contenedor figure .capa h3{
     color: #fff;
     font-weight: 400;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     transition: all 500ms  ease-out;
     margin-top: 30px;
 
