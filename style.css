@@ -280,6 +280,22 @@ body{
     transform: scale(1.3);
 }
 
+@media (max-width:1300px){
+    #p-proyectos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        
+    }
+}
+@media (max-width:900px){
+    #p-proyectos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        
+    }
+}
 
 
 
