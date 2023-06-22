@@ -1,5 +1,10 @@
 
 /* servicios */
+.todo{
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
 .containersr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -25,6 +30,9 @@
 }
 .basesr{
   background-color: white;
+  opacity: 1;
+  z-index: 123232131;
+  position: relative;
 }
 
 #gridsr:hover{
