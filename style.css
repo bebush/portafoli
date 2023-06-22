@@ -24,17 +24,48 @@
     
 }
 .basesr{
-    grid-column: 1/4;
-    line-height: 2px;
-    margin: 20px;
-    
-    margin-bottom: 0;
-    padding-top: 17px;
+  background-color: white;
 }
 
 #gridsr:hover{
     box-shadow: 5px 5px 5px grey;
     background-color: rgb(247, 241, 241);
+}
+
+@media (max-width:1300px){
+    .containersr{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        
+        gap:5px;
+        padding-left: 15px;
+        padding-bottom: 3vh;
+        margin-top: 0;
+        position: relative;
+        
+        
+    
+    }
+  
+}
+@media (max-width:900px){
+    .containersr{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        
+        gap:5px;
+        padding-left: 15px;
+        padding-bottom: 3vh;
+        margin-top: 0;
+        position: relative;
+        
+        
+    
+    }
+        
+    
 }
 
 
@@ -188,8 +219,8 @@ body{
 #p-proyectos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 10px 20px 10px 20px;
-    
+    row-gap: 20px;
+   
     
 }
 .p-proyecto{
@@ -220,7 +251,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height:auto;
 
 }
 .contenedor figure{
@@ -294,7 +325,9 @@ body{
         grid-template-columns: repeat(1,1fr);
         gap: 1rem;
         
+        
     }
+    
 }
 
 
